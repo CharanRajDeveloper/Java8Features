@@ -1,0 +1,27 @@
+1.Lambda Expressions
+----------------------
+Lambda expression provides implementation of functional interface. 
+An interface which has only one abstract method is called functional interface. 
+Java provides an anotation @FunctionalInterface, 
+which is used to declare an interface as functional interface.
+ *********************************************************************************
+ 2.Method reference
+ ----------------
+ Method reference is used to refer method of functional interface. 
+ It is compact and easy form of lambda expression. 
+ Each time when you are using lambda expression to just referring a method, 
+ you can replace your lambda expression with method reference.
+ 
+There are following types of method references in java:
+1.Reference to a static method.
+2.Reference to an instance method.
+3.Reference to a constructor.
+***********************************************************************************
+Functional Interface
+---------------------
+An Interface that contains exactly one abstract method is known as functional interface. 
+It can have any number of default, static methods but can contain only one abstract method. 
+Functional Interface is also known as Single Abstract Method Interfaces or SAM Interfaces. 
+It is a new feature in Java, which helps to achieve functional programming approach.
+A functional interface can extends another interface only when it does not have any abstract method.
+******************************************************************************************
