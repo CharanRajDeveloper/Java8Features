@@ -10,7 +10,6 @@ public class ForEachExample {
 		qualification.add("Intermediate");
 		qualification.add("BCA");
 		qualification.add("Msc");
-		qualification.add("Reva University");
 		System.out.println("------------------Iterating by passing Method reference--------------------");
 		qualification.forEach(System.out::println);
 	}
