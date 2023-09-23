@@ -37,9 +37,28 @@ Java provides a facility to create default methods inside the interface.
  Methods which are defined inside the interface and tagged with default 
  are known as default methods.These methods are non-abstract methods.
  **********************************************************************************
- if we use git pull changes will be directly reflected to our local repo
+ ForEach Loop
+ -------------
+ Java provides a new method forEach() to iterate the elements. 
+ It is defined in Iterable and Stream interface. 
+ It is a default method defined in the Iterable interface. 
+ Collection classes which extends Iterable interface can use forEach loop to iterate elements.
+ This method takes a single parameter which is a functional interface. 
+ So, you can pass lambda expression as an argument.
+ 
+ Along with forEach() method, Java provides one more method forEachOrdered(). 
+ It is used to iterate elements in the order specified by the stream.
+ *****************************************************************************************
+ git fetch vs pull
+ -----------------
+ If we use git pull changes will be directly reflected to our local repo
  git pull
  but git fetch it will just fetch the changes,in order to get the changes to our local.
  then we have to use
  git fetch origin
  git merge
+********************************************************************************************
+Collectors
+-----------
+Collectors is a final class that extends Object class.
+********************************************************************************************

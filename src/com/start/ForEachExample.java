@@ -12,6 +12,10 @@ public class ForEachExample {
 		qualification.add("Msc");
 		System.out.println("------------------Iterating by passing Method reference--------------------");
 		qualification.forEach(System.out::println);
+		System.out.println("----------------Using Normal Method-----------------");
+		qualification.forEach(charan->System.out.println(charan));
+		System.out.println("-------------Using forEachOrdered-------------------------");
+		qualification.stream().forEachOrdered(raj->System.out.println(raj));
 	}
 
 }
