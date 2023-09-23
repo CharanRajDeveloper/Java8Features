@@ -31,3 +31,9 @@ Java provides a class Base64 to deal with encryption.
 You can encrypt and decrypt your data by using provided methods. 
 You need to import java.util.Base64 in your source file to use its methods..
 ********************************************************************************
+Java Default Methods
+--------------------
+Java provides a facility to create default methods inside the interface.
+ Methods which are defined inside the interface and tagged with default 
+ are known as default methods.These methods are non-abstract methods.
+ **********************************************************************************
