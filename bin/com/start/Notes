@@ -25,3 +25,9 @@ Functional Interface is also known as Single Abstract Method Interfaces or SAM I
 It is a new feature in Java, which helps to achieve functional programming approach.
 A functional interface can extends another interface only when it does not have any abstract method.
 ******************************************************************************************
+Base64
+--------
+Java provides a class Base64 to deal with encryption. 
+You can encrypt and decrypt your data by using provided methods. 
+You need to import java.util.Base64 in your source file to use its methods.
+********************************************************************************
