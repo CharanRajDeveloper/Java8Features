@@ -29,5 +29,5 @@ Base64
 --------
 Java provides a class Base64 to deal with encryption. 
 You can encrypt and decrypt your data by using provided methods. 
-You need to import java.util.Base64 in your source file to use its methods.
+You need to import java.util.Base64 in your source file to use its methods..
 ********************************************************************************
