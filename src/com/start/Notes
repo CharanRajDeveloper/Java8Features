@@ -37,3 +37,9 @@ Java provides a facility to create default methods inside the interface.
  Methods which are defined inside the interface and tagged with default 
  are known as default methods.These methods are non-abstract methods.
  **********************************************************************************
+ if we use git pull changes will be directly reflected to our local repo
+ git pull
+ but git fetch it will just fetch the changes,in order to get the changes to our local.
+ then we have to use
+ git fetch origin
+ git merge
