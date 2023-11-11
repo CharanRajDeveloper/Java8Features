@@ -8,7 +8,7 @@ public class ToStringExample {
 		System.out.println(u1.toString());  //toString Example.
 		System.out.println(u1==u2);
 		System.out.println(u1.equals(u2));  //Equals Example...
-		System.out.println(u1.hashCode());
+		System.out.println(u1.hashCode());  //HashCode Example
 	}
 
 }
