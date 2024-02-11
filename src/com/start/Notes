@@ -62,3 +62,29 @@ Collectors
 -----------
 Collectors is a final class that extends Object class.
 ********************************************************************************************
+Stream API
+---------
+Stream API is a way to express and process collections of objects. 
+Enable us to perform operations like filtering, mapping,reducing and sorting.
+********************************************************************************
+what are the three main parts of Lambda Expression in java?
+(argument-list) -> {body}  
+1) Argument-list/Parameter list: It can be empty or non-empty as well.
+2) Arrow-token/Lambda arrow operatore-> It is used to link arguments-list and body of expression.
+3) Body: It contains expressions and statements for lambda expression.
+*******************************************************************
+Data Type of Lambda Expression is Functional Interface.
+In most of the cases this is java.lang.Runnable Interface
+**********************************************************
+Why did oracle release a new version of java like java8??
+Functional Programming
+Cloud Computing
+Big Data
+Optional
+**************************************************************************
+why do we need Functional Interface in Java???
+  Functional Interfaces are mainly used in Lambda Expressions,Method References
+  and Constructor references.
+
+
+
