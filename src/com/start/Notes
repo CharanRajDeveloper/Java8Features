@@ -117,6 +117,9 @@ for delivery.
 then we add production deployment to this process is called Continuous Deployment
 All these stages are automated and works with the automated trigger.
 ********************************************************************************* 
-
-
+Java Abstract Class
+---------------------
+Java Abstract class is used to provide common method implementation to all 
+the subclasses or to provide default implementation.
+********************************************************************************
 
