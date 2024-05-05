@@ -85,6 +85,38 @@ Optional
 why do we need Functional Interface in Java???
   Functional Interfaces are mainly used in Lambda Expressions,Method References
   and Constructor references.
+***************************************************************************
+Predicate
+---------------
+It is a functional interface which represents a predicate 
+(boolean-valued function) of one argument. 
+It is defined in the java.util.function package and 
+contains test() a functional method.
+****************************************************************************
+Java Optional Class
+---------------------
+Java introduced a new class Optional in jdk8. 
+It is a public final class and used to deal 
+with NullPointerException in Java application. 
+You must import java.util package to use this class. 
+*****************************************************************************
+
+Git CI/CD
+Continuous Integration/Delivery/Deployment
+
+When the Developers or Developer team integrate their code/merge their into a
+common repository,after that integration some unit tests or basic tests are 
+executed to check whether the integration is successful and application is 
+working fine.until this process is called Continuous Integration.
+
+Deploying this integrated code to the testing environment and running some
+QA tests or acceptance test,until this stage is called Continuous Delivery.
+because after running the acceptance test,the product/software is ready
+for delivery.
+
+then we add production deployment to this process is called Continuous Deployment
+All these stages are automated and works with the automated trigger.
+********************************************************************************* 
 
 
 
